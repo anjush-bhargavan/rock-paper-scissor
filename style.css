@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(26, 26, 26);
+  color: white;
+  font-family:'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+
+button{
+  background-color: transparent;
+  border-width: 1px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border-color: aliceblue;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+img{
+  height: 50px;
+}
+p{
+  font-size: 20px;
+}
+
+.reset{
+  background-color: rgb(185, 185, 185);
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moves{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.status{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
